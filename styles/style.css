@@ -73,8 +73,6 @@ nav ul li a {
     padding: 10px;
     text-decoration: none;
     color: black;
-    /* border-bottom: 0px solid white; 
-    transition: border 150ms, padding 150ms; */
 }
 
 nav ul li a:hover {
