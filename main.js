@@ -51,6 +51,8 @@ class TypeWriter {
 
     setTimeout(() => this.type(), typeSpeed);
   }
+
+
 }
 
 
@@ -65,3 +67,8 @@ function init() {
   // Init TypeWriter
   new TypeWriter(txtElement, words, wait);
 }
+
+AOS.init({
+      easing: 'ease', 
+      duration: 1800
+  });
